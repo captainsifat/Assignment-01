@@ -82,16 +82,21 @@ body{
    
     margin-top: 80px;
  }
+ .pillar-part-top{
+  margin-top: 80px;
+  margin-bottom: 32px;
+ }
+
 .pillars-title{
     font-size: 40px;
 }
  
  .pillar-part{
     font-family: "Fira Sans";
-   
     display: flex;
     justify-content:space-between;
     gap: 24px;
+    margin-bottom: 32px;
     
     
  }
@@ -110,5 +115,49 @@ body{
     opacity: .8;
 }
 .pillar-part-description{
+    font-size: 16px;
+font-weight: 400;
     opacity: .7;
+    margin: 0;
+}
+
+.btn-vision-1, .btn-vision-2, .btn-vision-3{
+
+font-style: normal;
+width:fit-content;
+height: 41px;
+background-color: #5490F5;
+margin-top: 24px;
+
+}
+.vision-part-1, .vision-part-2, .vision-part-3{
+    
+    padding-bottom: 32px;
+    width: 410px;
+}
+.vision-title{
+margin-top: 24px;
+margin-bottom: 12px;
+}
+.vision-part-1{
+    background-color: rgba(84, 144, 245, .2); ;
+    border: #5490F5 ;
+}
+.vision-part-2{
+    background-color: #C6E4D6 ;
+    border: #5490F5 ;
+}
+.vision-part-3{
+    background-color: #F7EBCF ;
+    border: #5490F5 ;
+}
+
+.btn-vision-2{
+    background-color: #09A15C;
+    margin-top: 24px;
+
+} 
+.btn-vision-3{
+    background-color: #FFC239;
+    margin-top: 24px;
 }
