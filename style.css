@@ -1,3 +1,4 @@
+
 .heading-title{
     font-family: "Fira Sans", serif;
     font-weight: 700;
@@ -9,6 +10,9 @@ nav{
     align-items:center;
     justify-content: space-between;
     margin: 0 60px;
+}
+body{
+    background-color: #F1F1F3;
 }
 .btn-primary{
     border-color: #006A50;
@@ -69,3 +73,42 @@ nav{
     color:#FFFFFF;
     border:none;
  }
+ .bottom-part{
+   
+    height:4541px;
+    margin: 0 60px;
+ }
+ .pillars{
+   
+    margin-top: 80px;
+ }
+.pillars-title{
+    font-size: 40px;
+}
+ 
+ .pillar-part{
+    font-family: "Fira Sans";
+   
+    display: flex;
+    justify-content:space-between;
+    gap: 24px;
+    
+    
+ }
+
+ .pillar-part-1{
+    width:302px;
+    background-color:#FFFFFF ;
+    padding:24px;
+    border-radius: 16px;
+    
+    
+ }
+ .pillar-part-title{
+    color:#0E0E0E;
+    font-size: 20px;
+    opacity: .8;
+}
+.pillar-part-description{
+    opacity: .7;
+}
