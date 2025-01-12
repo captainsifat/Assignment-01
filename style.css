@@ -5,6 +5,115 @@
     font-style: normal;
   }
 
+  .fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
 nav{
     display: flex;
     align-items:center;
@@ -76,7 +185,7 @@ body{
  .bottom-part{
    
     height:4541px;
-    margin: 0 60px;
+    margin: 0px 60px;
  }
  .pillars{
    
@@ -87,7 +196,8 @@ body{
   margin-bottom: 32px;
  }
 
-.pillars-title{
+
+  .fira-sans-bold{
     font-size: 40px;
 }
  
@@ -115,6 +225,7 @@ body{
     opacity: .8;
 }
 .pillar-part-description{
+    font-family: "Fira Sans", serif;
     font-size: 16px;
 font-weight: 400;
     opacity: .7;
@@ -140,7 +251,7 @@ margin-top: 24px;
 margin-bottom: 12px;
 }
 .vision-part-1{
-    background-color: rgba(84, 144, 245, .2); ;
+    background-color: rgba(84, 144, 245, .2) ;
     border: #5490F5 ;
 }
 .vision-part-2{
@@ -161,3 +272,249 @@ margin-bottom: 12px;
     background-color: #FFC239;
     margin-top: 24px;
 }
+.description{
+    background-image: url('/Images/quote-bg.png');
+    background-repeat: no-repeat;
+    font-family: "Fira Sans", serif;
+    background-color:#ffffff ;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-position: 24px 40px;
+   
+}
+.des-message{
+font-size: 16px;
+opacity: .8;
+font-weight: 400;
+font-style: normal;
+     
+ 
+}
+.des-title{
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.des-bottom-line{
+    margin:0px;
+    opacity: .6;
+}
+.opnion-table{
+    background-color: #ffffff;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+.head-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    padding: 24px;
+    
+}
+.head-bar-title-1, .head-bar-title-2{
+    font-weight:700;
+}
+.list-ques{
+    padding-left: 24px;
+}
+.drop-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.dropbtn {
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+    padding: 16px;
+    font-size: 16px;
+    border: #0E0E0E solid 1px;
+    border-radius:  4px;
+    cursor: pointer;
+   
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 24px
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:5px;
+    margin-bottom: 1px ;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .list-1st-line{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border:#6d696954 solid 1px;
+    
+    
+    
+}
+.list{
+    border-bottom: none;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.news-description{
+    display: flex;
+justify-content: space-between;
+    gap:32px;
+}
+.nws-img{
+    border-radius:24px ;
+}
+.nws-heading{
+font-size: 32px;    
+opacity: .8;
+}
+.des-message{
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+    margin: 12px 0;
+}
+.btn-nws{
+  
+    padding: 13px 26px;
+    width:139px;
+    height:48px;
+}
+.news-description{
+background-color: #ffffff;
+padding: 48px;
+border-radius: 24px;
+
+}
+.donation{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.taka{
+    display: flex;
+    gap: 24px;
+    justify-content:center;
+}
+.takas{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+
+}
+.pillars-title .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.two-taka{
+background-color: #C6E4D6;
+}  
+#amount{
+    width:1032px;
+    height:64px;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    
+    border:none;
+    border-bottom: rgba(14, 14, 14, .15) solid 1px;
+}
+::placeholder {
+    color:rgba(14, 14, 14, .3);
+    font-size: 20px;
+  }
+  .btn-done{
+margin-top: 32px;
+  }
+  .newsletter{
+    background-color:#C6E4D6 ;
+    border-radius: 24px;
+    padding: 80px 265px;
+    margin-bottom: 0px;
+    
+  }
+.news-head-para{
+    
+    text-align: center;
+}
+  .text-field{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-subs{
+    height: 64px;
+    border-radius: 0px 8px 8px 0;
+  }
+  #email-field{
+    width:1032px;
+    height:64px;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    padding-left: 40px;
+    border:none;
+    border-bottom: rgba(14, 14, 14, .15) solid 1px;
+}
+.footer-images{
+    display: flex;
+    justify-content: center;
+    gap:23px;
+    margin-top: 64px;
+    padding-bottom: 50px;
+}
+.footer-title{
+    margin-top:00px ;
+}
+.footer{
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 64px;
+}
+  
