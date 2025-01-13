@@ -132,6 +132,12 @@ body{
     font-style: normal;
     border-style: solid;
     padding: 10px 24px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+      }
+      .btn-primary:hover{ 
+        background-color:#002e23ee;
+        color: white;
       }
 .banner{
     display: flex;
@@ -443,16 +449,20 @@ border-radius: 24px;
     background-color: #ffffff;
     padding: 40px;
     border-radius: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 
+}
+.takas:hover{
+  background-color:#C6E4D6;
+  color: rgb(0, 0, 0);
 }
 .pillars-title .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
   }
-.two-taka{
-background-color: #C6E4D6;
-}  
+
 #amount{
     width:1032px;
     height:64px;
